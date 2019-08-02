@@ -1,15 +1,15 @@
 const config = require("./config.json");
 const Discord = require("discord.js");
-const bot = new Discord.Client({ disableEveryone: false });
+const client = new Discord.Client();
 
-bot.on("ready", () => {
-  console.log(`${client.user.tag} est en ligne`);
+client.on("ready", () => {
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
-bot.on("message", msg => {
+client.on("message", msg => {
   if (msg.content === "ping") {
     msg.channel.send("Pong!");
   }
 });
 
-bot.login(NjA2ODc3MjE2MjM5Nzc5ODQx.XURdGQ.SIatAO6eiXLd45bsBwIUalJVwgk);
+client.login("config.token");
