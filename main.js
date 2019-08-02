@@ -12,4 +12,4 @@ bot.on("message", msg => {
   }
 });
 
-bot.login(config.token);
+bot.login(NjA2ODc3MjE2MjM5Nzc5ODQx.XURdGQ.SIatAO6eiXLd45bsBwIUalJVwgk);
