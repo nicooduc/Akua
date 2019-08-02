@@ -1,0 +1,12 @@
+{
+  "name": "Akua",
+  "version": "0.1.0",
+  "description": "Bot Dicord pour tout faire",
+  "main": "main.js",
+  "repository": "https://github.com/nicooduc/Akua.git",
+  "author": "nicooduc <nykolasduchene@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "discordjs/discord.js"
+  }
+}
